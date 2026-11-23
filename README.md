@@ -1,64 +1,228 @@
-# PNP8 / NepoPetro Octonion Ecosystem (`pnpoct.onion`)
+# NepoPetro
+
+### Portafolio colaborativo de ingeniería, investigación y desarrollo multidisciplinario
+
+Un espacio de trabajo compartido para investigar, diseñar, desarrollar, experimentar y documentar soluciones de ingeniería desde diferentes disciplinas, perspectivas y áreas de conocimiento.
 
 ---
 
-## ES | Español
+## Sobre este espacio
 
-### Fundamentos del Proyecto
+NepoPetro es un ecosistema de proyectos que busca construir un portafolio técnico y científico colaborativo. Su propósito es integrar conocimientos, capacidades y experiencias de profesionales, estudiantes, investigadores y personas interesadas en desarrollar proyectos aplicados a la ingeniería.
 
-#### Historia Personal
-El nombre **NepoPetro** rinde homenaje a mis abuelos, **Nepomuceno** y **Petrona**. Desde muy chica creyeron incondicionalmente en mi potencial, me brindaron su apoyo y siempre mostraron un profundo orgullo por cada paso de mi camino. Este ecosistema nace sobre esa misma base de confianza, amor e impulso transformador.
+El portafolio no se limita a mostrar resultados finales. Busca documentar también el proceso de construcción: las preguntas que originan cada proyecto, las hipótesis planteadas, las decisiones de diseño, los métodos utilizados, los experimentos realizados, los resultados obtenidos y las limitaciones identificadas.
 
-#### Arquitectura del Dominio `.onion` y Tor
-La elección del ecosistema de nombres responde directamente a la integración con la red de anonimato **Tor** (*The Onion Router*) y la especificación de sus dominios `.onion`. Dado que la terminación `.onion` es una propiedad técnica fija e inalterable del protocolo, la selección de cada concepto conceptual y matemático (*Perikronion*, *P-NP*, *Octonion*) fue diseñada para converger de forma fluida con la estructura del dominio, generando una identidad criptográfica integrada (`pnpoct.onion`). Los dominios `.onion` garantizan cifrado por capas de extremo a extremo, privacidad bidireccional e integridad sin intermediarios ni autoridades centrales.
+Cada proyecto constituye una unidad de investigación, desarrollo o experimentación que puede evolucionar de forma independiente y, al mismo tiempo, integrarse con otras iniciativas del ecosistema.
 
-#### Perikronion
-En la astrodinámica y la mecánica celeste, el **pericronio** (*perikronion*) designa el punto de máxima cercanía de la órbita de un cuerpo alrededor del planeta Saturno (de *peri-* 'cerca' y *Kronos* 'Saturno'). En nuestro marco computacional y conceptual, representa el nodo de máxima aproximación a la resolución de un problema, el punto donde los vectores de entrada convergen a su estado de mínima distancia respecto al objetivo final.
+## Objetivos
 
-#### P vs NP
-El dilema **P vs NP** es uno de los problemas abiertos más trascendentales de la ciencia de la computación. Plantea si todo problema cuya solución puede ser verificada rápidamente por una computadora (clase NP) también puede ser resuelto rápidamente por ella (clase P). La firma **PNP** condensa la dualidad entre la complejidad formal del cálculo y la constante búsqueda de algoritmos eficientes en sistemas distribuidos.
+- Construir un portafolio multidisciplinario con proyectos de ingeniería y ciencia aplicada.
+- Promover el trabajo colaborativo entre perfiles técnicos, científicos y profesionales.
+- Integrar investigación, modelización matemática, programación, análisis de datos y desarrollo tecnológico.
+- Transformar problemas reales en proyectos documentados, reproducibles y evaluables.
+- Compartir metodologías, herramientas, conocimientos y experiencias.
+- Generar evidencia técnica del trabajo realizado por cada integrante.
+- Facilitar la colaboración abierta, el aprendizaje interdisciplinario y la transferencia de conocimientos.
+- Desarrollar proyectos que puedan evolucionar hacia prototipos, productos, investigaciones, publicaciones o soluciones de utilidad práctica.
 
-#### Octonion
-Los **octoniones** ($\mathbb{O}$) conforman un álgebra de división normada de 8 dimensiones sobre los números reales. Al extender a los números complejos y cuaterniones, los octoniones pierden la propiedad asociativa y conmutativa, ofreciendo una estructura matemática hipercompleja de alta dimensión utilizada en física teórica y simetrías avanzadas.
+## Áreas de trabajo
+
+El ecosistema es abierto a nuevas disciplinas y áreas de aplicación. Las siguientes líneas representan algunas de las áreas presentes o proyectadas dentro del portafolio.
+
+| Área | Alcance |
+|---|---|
+| Ingeniería de sistemas | Arquitectura, diseño, integración, análisis y documentación de sistemas. |
+| Ciencia de datos | Estadística, analítica, visualización, minería de datos y modelización. |
+| Ingeniería de datos | Bases de datos, pipelines, interoperabilidad, calidad y gobernanza. |
+| Inteligencia artificial | Machine Learning, modelos computacionales, automatización y experimentación. |
+| Ingeniería de software | Desarrollo de aplicaciones, APIs, testing, arquitectura y herramientas. |
+| Matemática aplicada | Modelización, simulación, optimización, análisis numérico y métodos computacionales. |
+| Investigación científica | Diseño experimental, revisión bibliográfica, análisis de evidencia y reproducibilidad. |
+| Computación científica | Simulación, sistemas complejos, computación de alto rendimiento y herramientas científicas. |
+| Ingeniería y tecnología | Prototipado, automatización, hardware, sistemas embebidos e IoT. |
+| Ciencias sociales computacionales | Análisis demográfico, migratorio, territorial, histórico y socioeconómico. |
+| Visualización científica | Representación de datos, modelos, procesos, sistemas y resultados. |
+| Innovación tecnológica | Exploración de ideas, pruebas de concepto, evaluación de viabilidad y desarrollo experimental. |
+
+Las áreas no constituyen compartimentos aislados. Un proyecto puede involucrar varias disciplinas y diferentes integrantes, de acuerdo con sus objetivos y necesidades.
 
 ---
 
-## PT | Português
+## Proyectos
 
-### Fundamentos do Projeto
+Los repositorios representan diferentes líneas de investigación, desarrollo y experimentación. Cada uno cuenta con su propia documentación, metodología, objetivos y evolución.
 
-#### História Pessoal
-O nome **NepoPetro** presta homenagem aos meus avós, **Nepomuceno** e **Petrona**. Desde muito jovem, eles acreditaram incondicionalmente no meu potencial, apoiaram-me e sempre demonstraram um profundo orgulho por cada etapa do meu caminho. Este ecossistema nasce sobre essa mesma base de confiança, afeto e impulso transformador.
+### Investigación y ciencia aplicada
 
-#### Arquitetura do Domínio `.onion` e Tor
-A escolha do ecossistema de nomes responde diretamente à integração com a rede de anonimato **Tor** (*The Onion Router*) e à especificação dos seus dominios `.onion`. Como o sufixo `.onion` é uma propriedade técnica fixa e inalterável do protocolo, a seleção de cada conceito conceitual e matemático (*Perikronion*, *P-NP*, *Octonion*) foi projetada para convergir de forma fluida com a estrutura do domínio, gerando uma identidade criptográfica integrada (`pnpoct.onion`). Os domínios `.onion` garantem criptografia em camadas de ponta a ponta, privacidade bidirecional e integridade sem intermediários ou autoridades centrais.
+| Proyecto | Descripción |
+|---|---|
+| [Cigarra3301](https://github.com/nepopetro/Cigarra3301) | Investigación interdisciplinaria sobre demografía, migración, desigualdad y territorio mediante ciencia de datos, estadística, modelización matemática y documentación científica reproducible. |
+| [30kT](https://github.com/nepopetro/30kT) | Investigación científico-computacional sobre la cifra de 30.000 personas deportadas a Argentina. Fuentes identificadas, operaciones reproducibles y limitaciones documentadas. |
 
-#### Perikronion
-Na astrodinâmica e mecânica celeste, o **pericrônio** (*perikronion*) designa o ponto de máxima proximidade da órbita de um corpo ao redor do planeta Saturno (de *peri-* 'próximo' e *Kronos* 'Saturno'). Em nosso modelo computacional e conceitual, representa o nó de máxima aproximação à resolução de um problema, o ponto onde os vetores de entrada convergem ao seu estado de menor distância em relação ao objetivo final.
+### Ingeniería de software y herramientas
 
-#### P vs NP
-O dilema **P vs NP** é um dos problemas em aberto mais fundamentais da ciência da computação. Questiona se todo problema cuja solução pode ser verificada rapidamente por um computador (classe NP) também pode ser resolvido rapidamente por ele (classe P). A sigla **PNP** condensa a dualidade entre a complexidade formal do cálculo e a busca constante por algoritmos eficientes em sistemas distribuídos.
+| Proyecto | Descripción |
+|---|---|
+| [tmura](https://github.com/nepopetro/tmura) | Bridge entre Archify JSON IR y draw.io. Integración de vistas ejecutivas, diagramas de arquitectura y visualización detallada de linaje de datos. Incluye análisis de las capacidades y limitaciones de las herramientas utilizadas. |
+| [LaboratorioDeC-digo](https://github.com/nepopetro/LaboratorioDeC-digo) | Espacio de aprendizaje, práctica y experimentación con diferentes lenguajes, tecnologías y paradigmas de programación. |
+| [1DFlfRMH](https://github.com/nepopetro/1DFlfRMH) | Proyecto de autenticación con testing automatizado y desarrollo de prácticas de validación de software. |
+| [antiprocrastinador](https://github.com/nepopetro/antiprocrastinador) | Experimentación con sistemas de gamificación y herramientas orientadas a la organización y ejecución de tareas. |
 
-#### Octonion
-Os **octônions** ($\mathbb{O}$) formam uma álgebra de divisão normada de 8 dimensões sobre os números reais. Como extensão dos números complexos e quatérnios, os octônions perdem as propriedades associativa e comutativa, oferecendo uma estrutura matemática hipercomplexa de alta dimensão aplicada na física teórica e em simetrias avançadas.
+### Nuevos proyectos
+
+El portafolio se encuentra en evolución. Las nuevas iniciativas podrán incorporar distintas disciplinas, tecnologías, metodologías y líneas de investigación.
+
+Los proyectos podrán desarrollarse individualmente o mediante equipos interdisciplinarios.
 
 ---
 
-## EN | English
+## Metodología de trabajo
 
-### Project Foundations
+Buscamos que los proyectos tengan un proceso de desarrollo comprensible, trazable y técnicamente fundamentado.
 
-#### Personal Story
-The name **NepoPetro** pays tribute to my grandparents, **Nepomuceno** and **Petrona**. From a very young age, they unconditionally believed in my potential, offered their support, and took immense pride in every milestone of my journey. This ecosystem is built upon that exact foundation of trust, love, and transformative drive.
+Dependiendo de la naturaleza y alcance de cada iniciativa, el proceso podrá incluir:
 
-#### `.onion` Domain Architecture and Tor
-The naming convention of the ecosystem directly stems from its deployment on the **Tor** (*The Onion Router*) anonymity network and its `.onion` domain specification. Since the `.onion` suffix is an unalterable technical property of the protocol, the selection of every conceptual and mathematical term (*Perikronion*, *P-NP*, *Octonion*) was engineered to seamlessly merge with the domain structure, producing a fully integrated cryptographic identity (`pnpoct.onion`). The `.onion` domains ensure multi-layer end-to-end encryption, bidirectional privacy, and structural integrity without central registries.
+1. **Identificación del problema:** definición del contexto, necesidades, alcance y preguntas de investigación.
+2. **Investigación:** revisión bibliográfica, antecedentes, fuentes, fundamentos y estado del arte.
+3. **Diseño:** arquitectura, metodología, modelización, hipótesis y planificación experimental.
+4. **Desarrollo:** implementación de soluciones, prototipos, herramientas y sistemas.
+5. **Validación:** pruebas, análisis de resultados, evaluación de calidad y contraste de hipótesis.
+6. **Documentación:** registro de decisiones, procedimientos, resultados, limitaciones y evidencia.
+7. **Revisión:** evaluación técnica, discusión interdisciplinaria y propuestas de mejora.
+8. **Evolución:** mantenimiento, ampliación, nuevas versiones y posibles integraciones con otros proyectos.
 
-#### Perikronion
-In astrodynamics and celestial mechanics, **perikronion** denotes the point of closest approach in an orbit around the planet Saturn (from *peri-* 'near' and *Kronos* 'Saturn'). Within our computational framework, it represents the point of maximum convergence toward solving a complex problem—where input vectors reach their minimal distance relative to the target state.
+No todos los proyectos necesitan aplicar todas las etapas ni seguir una secuencia rígida. La metodología se adapta a los objetivos, naturaleza y madurez de cada iniciativa.
 
-#### P vs NP
-The **P vs NP** problem remains one of the most fundamental unsolved questions in theoretical computer science. It addresses whether every problem whose solution can be quickly verified by a computer (class NP) can also be quickly solved by one (class P). The **PNP** designation encapsulates the duality between mathematical complexity and the continuous search for optimal algorithms in distributed systems.
+---
 
-#### Octonion
-**Octonions** ($\mathbb{O}$) form an 8-dimensional normed division algebra over the real numbers. Extending complex numbers and quaternions, octonions lose both commutativity and associativity, providing a hypercomplex mathematical framework used in theoretical physics and high-dimensional symmetries.
+## Colaboración
+
+Este ecosistema está pensado para la participación de personas con diferentes perfiles, niveles de experiencia y áreas de especialización.
+
+La colaboración puede desarrollarse mediante:
+
+- Investigación y revisión bibliográfica.
+- Desarrollo de software y herramientas.
+- Modelización matemática y simulación.
+- Diseño y análisis de experimentos.
+- Arquitectura e ingeniería de sistemas.
+- Análisis, procesamiento y visualización de datos.
+- Documentación técnica y científica.
+- Testing, validación y auditoría.
+- Diseño de prototipos.
+- Propuestas de nuevos proyectos.
+- Revisión técnica y discusión de resultados.
+
+La interdisciplinariedad no significa que todos deban dominar todas las áreas. El valor del trabajo conjunto reside precisamente en la integración de conocimientos especializados.
+
+### Participantes
+
+Cada integrante contará con una ficha individual que permitirá conocer su perfil, áreas de interés, conocimientos, contribuciones y proyectos en los que participa.
+
+Las fichas se encuentran en:
+
+[`/integrantes`](./integrantes/)
+
+La participación en el ecosistema no implica que todas las personas deban contribuir a todos los repositorios. Cada colaboración se define según el interés, disponibilidad, conocimientos y objetivos de sus integrantes.
+
+---
+
+## Organización y documentación
+
+La documentación constituye parte del desarrollo de cada proyecto.
+
+Cuando corresponda, los repositorios podrán incorporar:
+
+- README y documentación técnica.
+- Arquitectura y diagramas.
+- Registro de decisiones de arquitectura (ADR).
+- Issues y seguimiento de tareas.
+- Milestones y planificación.
+- Proyectos y tableros de trabajo.
+- Pull Requests y revisión colaborativa.
+- Pruebas y evidencia de validación.
+- Notebooks y experimentos reproducibles.
+- Modelos matemáticos y simulaciones.
+- Prototipos y pruebas de concepto.
+- Registro de fuentes y referencias.
+- Versionado de resultados y artefactos.
+
+La estructura documental se adapta a las necesidades de cada proyecto. Se busca que las decisiones, los resultados y el conocimiento generado puedan ser comprendidos, revisados y reutilizados.
+
+---
+
+## Principios
+
+### Rigor técnico
+
+Las afirmaciones, resultados y conclusiones deben estar fundamentados en evidencia, métodos apropiados y fuentes identificables.
+
+### Reproducibilidad
+
+Siempre que sea viable, los experimentos, procedimientos y resultados deben poder reproducirse por otras personas.
+
+### Transparencia
+
+Documentamos las decisiones, los supuestos, las limitaciones y los cambios de metodología.
+
+### Colaboración
+
+Promovemos el intercambio de conocimientos, la revisión entre pares y el desarrollo colectivo.
+
+### Interdisciplinariedad
+
+Integramos distintas disciplinas cuando la complejidad del problema requiere más de una perspectiva.
+
+### Aprendizaje continuo
+
+El portafolio es también un espacio de formación, experimentación y desarrollo profesional.
+
+### Responsabilidad
+
+Consideramos las implicaciones técnicas, sociales, éticas, legales y ambientales de los proyectos según su contexto.
+
+### Trazabilidad
+
+Buscamos mantener una relación clara entre objetivos, fuentes, decisiones, procesos, resultados y contribuciones.
+
+---
+
+## Cómo participar
+
+Si te interesa alguna de las líneas de trabajo, tienes una propuesta de proyecto o deseas colaborar desde tu área de conocimiento, puedes explorar los repositorios y plantear una iniciativa.
+
+Las posibles formas de participación incluyen:
+
+- Incorporarse a un proyecto existente.
+- Proponer una investigación o desarrollo nuevo.
+- Colaborar en una tarea técnica específica.
+- Revisar documentación, código o metodología.
+- Compartir conocimientos y herramientas.
+- Desarrollar una prueba de concepto.
+- Proponer integraciones entre proyectos.
+
+Las propuestas, consultas y discusiones técnicas podrán canalizarse mediante los mecanismos de colaboración disponibles en los repositorios.
+
+---
+
+## Idiomas
+
+La documentación general del ecosistema se mantiene en tres idiomas para facilitar la participación y difusión internacional:
+
+- [Español](./README.md)
+- [Português](./README.pt.md)
+- [English](./README.en.md)
+
+La documentación de cada proyecto podrá incorporar otros idiomas de acuerdo con su contexto, alcance y necesidades de sus participantes.
+
+---
+
+## Portafolio
+
+Este espacio funciona como punto de entrada al conjunto de proyectos y a las personas que contribuyen a su desarrollo.
+
+Cada repositorio tiene identidad, objetivos y metodología propios, pero comparte una visión común: utilizar el conocimiento, la ingeniería y la colaboración para construir soluciones, investigar problemas y generar resultados documentados.
+
+---
+
+**NepoPetro — Ingeniería colaborativa, investigación y desarrollo.**
