@@ -1,64 +1,198 @@
-# PNP8 / NepoPetro Octonion Ecosystem (`pnpoct.onion`)
+NepoPetro | Ingeniería interdisciplinaria
+
+Un espacio colaborativo para desarrollar, investigar, diseñar y documentar soluciones de ingeniería.
+
+NepoPetro es un ecosistema de trabajo multidisciplinario donde profesionales, estudiantes, investigadores y personas interesadas en distintas ramas de la ingeniería colaboran en proyectos compartidos, integrando conocimientos, metodologías, herramientas y perspectivas.
+
+El objetivo es construir un portafolio colectivo que permita mostrar no solamente los resultados obtenidos, sino también los procesos de investigación, las decisiones técnicas, los modelos desarrollados, los experimentos realizados y el conocimiento generado durante cada proyecto.
 
 ---
 
-## ES | Español
+01. Propósito
 
-### Fundamentos del Proyecto
+Construir un espacio abierto de colaboración interdisciplinaria aplicado a la ingeniería, donde las ideas puedan transformarse en investigaciones, prototipos, herramientas, sistemas y soluciones documentadas.
 
-#### Historia Personal
-El nombre **NepoPetro** rinde homenaje a mis abuelos, **Nepomuceno** y **Petrona**. Desde muy chica creyeron incondicionalmente en mi potencial, me brindaron su apoyo y siempre mostraron un profundo orgullo por cada paso de mi camino. Este ecosistema nace sobre esa misma base de confianza, amor e impulso transformador.
+El portafolio busca reflejar el trabajo del equipo como conjunto, respetando al mismo tiempo la identidad, trayectoria, conocimientos y contribuciones de cada integrante.
 
-#### Arquitectura del Dominio `.onion` y Tor
-La elección del ecosistema de nombres responde directamente a la integración con la red de anonimato **Tor** (*The Onion Router*) y la especificación de sus dominios `.onion`. Dado que la terminación `.onion` es una propiedad técnica fija e inalterable del protocolo, la selección de cada concepto conceptual y matemático (*Perikronion*, *P-NP*, *Octonion*) fue diseñada para converger de forma fluida con la estructura del dominio, generando una identidad criptográfica integrada (`pnpoct.onion`). Los dominios `.onion` garantizan cifrado por capas de extremo a extremo, privacidad bidireccional e integridad sin intermediarios ni autoridades centrales.
-
-#### Perikronion
-En la astrodinámica y la mecánica celeste, el **pericronio** (*perikronion*) designa el punto de máxima cercanía de la órbita de un cuerpo alrededor del planeta Saturno (de *peri-* 'cerca' y *Kronos* 'Saturno'). En nuestro marco computacional y conceptual, representa el nodo de máxima aproximación a la resolución de un problema, el punto donde los vectores de entrada convergen a su estado de mínima distancia respecto al objetivo final.
-
-#### P vs NP
-El dilema **P vs NP** es uno de los problemas abiertos más trascendentales de la ciencia de la computación. Plantea si todo problema cuya solución puede ser verificada rápidamente por una computadora (clase NP) también puede ser resuelto rápidamente por ella (clase P). La firma **PNP** condensa la dualidad entre la complejidad formal del cálculo y la constante búsqueda de algoritmos eficientes en sistemas distribuidos.
-
-#### Octonion
-Los **octoniones** ($\mathbb{O}$) conforman un álgebra de división normada de 8 dimensiones sobre los números reales. Al extender a los números complejos y cuaterniones, los octoniones pierden la propiedad asociativa y conmutativa, ofreciendo una estructura matemática hipercompleja de alta dimensión utilizada en física teórica y simetrías avanzadas.
+Entendemos la ingeniería como una actividad que integra múltiples disciplinas: matemática, computación, ciencias, diseño, análisis, investigación, tecnología y conocimiento aplicado.
 
 ---
 
-## PT | Português
+02. Áreas de trabajo
 
-### Fundamentos do Projeto
+Las áreas de trabajo no constituyen divisiones rígidas. Los proyectos pueden integrar varias disciplinas y evolucionar de acuerdo con sus necesidades.
 
-#### História Pessoal
-O nome **NepoPetro** presta homenagem aos meus avós, **Nepomuceno** e **Petrona**. Desde muito jovem, eles acreditaram incondicionalmente no meu potencial, apoiaram-me e sempre demonstraram um profundo orgulho por cada etapa do meu caminho. Este ecossistema nasce sobre essa mesma base de confiança, afeto e impulso transformador.
-
-#### Arquitetura do Domínio `.onion` e Tor
-A escolha do ecossistema de nomes responde diretamente à integração com a rede de anonimato **Tor** (*The Onion Router*) e à especificação dos seus dominios `.onion`. Como o sufixo `.onion` é uma propriedade técnica fixa e inalterável do protocolo, a seleção de cada conceito conceitual e matemático (*Perikronion*, *P-NP*, *Octonion*) foi projetada para convergir de forma fluida com a estrutura do domínio, gerando uma identidade criptográfica integrada (`pnpoct.onion`). Os domínios `.onion` garantem criptografia em camadas de ponta a ponta, privacidade bidirecional e integridade sem intermediários ou autoridades centrais.
-
-#### Perikronion
-Na astrodinâmica e mecânica celeste, o **pericrônio** (*perikronion*) designa o ponto de máxima proximidade da órbita de um corpo ao redor do planeta Saturno (de *peri-* 'próximo' e *Kronos* 'Saturno'). Em nosso modelo computacional e conceitual, representa o nó de máxima aproximação à resolução de um problema, o ponto onde os vetores de entrada convergem ao seu estado de menor distância em relação ao objetivo final.
-
-#### P vs NP
-O dilema **P vs NP** é um dos problemas em aberto mais fundamentais da ciência da computação. Questiona se todo problema cuja solução pode ser verificada rapidamente por um computador (classe NP) também pode ser resolvido rapidamente por ele (classe P). A sigla **PNP** condensa a dualidade entre a complexidade formal do cálculo e a busca constante por algoritmos eficientes em sistemas distribuídos.
-
-#### Octonion
-Os **octônions** ($\mathbb{O}$) formam uma álgebra de divisão normada de 8 dimensões sobre os números reais. Como extensão dos números complexos e quatérnios, os octônions perdem as propriedades associativa e comutativa, oferecendo uma estrutura matemática hipercomplexa de alta dimensão aplicada na física teórica e em simetrias avançadas.
+- Ingeniería de software: desarrollo de aplicaciones, arquitectura, APIs, automatización, testing y herramientas.
+- Ingeniería de datos: bases de datos, arquitectura de datos, modelado, integración, calidad, trazabilidad y gobernanza.
+- Ciencia de datos y analítica: estadística, visualización, análisis exploratorio, modelos predictivos y evaluación.
+- Investigación científico-computacional: formulación matemática, simulación, modelado, experimentación y reproducibilidad.
+- Inteligencia artificial: investigación, desarrollo, evaluación e integración de sistemas inteligentes.
+- Ingeniería de sistemas: diseño, integración, documentación, evaluación y optimización de sistemas complejos.
+- Ingeniería y tecnología aplicada: exploración de herramientas, infraestructura, IoT, hardware, automatización y prototipado.
+- Investigación interdisciplinaria: proyectos que conecten ingeniería con ciencias sociales, humanidades, salud, educación y otras áreas del conocimiento.
 
 ---
 
-## EN | English
+03. Proyectos
 
-### Project Foundations
+El portafolio se organiza en proyectos independientes que pueden compartir integrantes, recursos, metodologías y componentes tecnológicos.
 
-#### Personal Story
-The name **NepoPetro** pays tribute to my grandparents, **Nepomuceno** and **Petrona**. From a very young age, they unconditionally believed in my potential, offered their support, and took immense pride in every milestone of my journey. This ecosystem is built upon that exact foundation of trust, love, and transformative drive.
+Cada proyecto cuenta con su propio repositorio, documentación, objetivos, alcance, metodología y registro de evolución.
 
-#### `.onion` Domain Architecture and Tor
-The naming convention of the ecosystem directly stems from its deployment on the **Tor** (*The Onion Router*) anonymity network and its `.onion` domain specification. Since the `.onion` suffix is an unalterable technical property of the protocol, the selection of every conceptual and mathematical term (*Perikronion*, *P-NP*, *Octonion*) was engineered to seamlessly merge with the domain structure, producing a fully integrated cryptographic identity (`pnpoct.onion`). The `.onion` domains ensure multi-layer end-to-end encryption, bidirectional privacy, and structural integrity without central registries.
+Investigación y desarrollo
 
-#### Perikronion
-In astrodynamics and celestial mechanics, **perikronion** denotes the point of closest approach in an orbit around the planet Saturn (from *peri-* 'near' and *Kronos* 'Saturn'). Within our computational framework, it represents the point of maximum convergence toward solving a complex problem—where input vectors reach their minimal distance relative to the target state.
+Proyecto| Descripción
+"30kT" (https://github.com/nepopetro/30kT)| Investigación científico-computacional sobre la cifra de 30.000 personas deportadas a Argentina. Fuentes identificadas, operaciones reproducibles y limitaciones documentadas.
+"Tmura" (https://github.com/nepopetro/tmura)| Desarrollo de herramientas de interoperabilidad para diagramación y documentación de arquitectura, con integración entre Archify y draw.io.
+"LaboratorioDeC-digo" (https://github.com/nepopetro/LaboratorioDeC-digo)| Espacio de aprendizaje, experimentación y desarrollo con diferentes lenguajes, herramientas y tecnologías.
 
-#### P vs NP
-The **P vs NP** problem remains one of the most fundamental unsolved questions in theoretical computer science. It addresses whether every problem whose solution can be quickly verified by a computer (class NP) can also be quickly solved by one (class P). The **PNP** designation encapsulates the duality between mathematical complexity and the continuous search for optimal algorithms in distributed systems.
+Software, automatización y sistemas
 
-#### Octonion
-**Octonions** ($\mathbb{O}$) form an 8-dimensional normed division algebra over the real numbers. Extending complex numbers and quaternions, octonions lose both commutativity and associativity, providing a hypercomplex mathematical framework used in theoretical physics and high-dimensional symmetries.
+Proyecto| Descripción
+"1DFlfRMH" (https://github.com/nepopetro/1DFlfRMH)| Proyecto de autenticación con testing automatizado y validación de funcionalidades.
+"antiprocrastinador" (https://github.com/nepopetro/antiprocrastinador)| Exploración de sistemas de gamificación y mecanismos de interacción para la gestión de actividades.
+
+Los proyectos podrán incorporar nuevas áreas, equipos y repositorios a medida que evolucione el ecosistema.
+
+---
+
+04. Cómo trabajamos
+
+Buscamos que el desarrollo de cada proyecto sea comprensible, verificable y reproducible.
+
+Nuestro enfoque contempla:
+
+- Definición del problema y alcance.
+- Investigación de antecedentes y fuentes.
+- Formulación de hipótesis y objetivos.
+- Diseño de soluciones y evaluación de alternativas.
+- Desarrollo de prototipos y pruebas de concepto.
+- Validación técnica y experimental.
+- Documentación de decisiones.
+- Registro de resultados, limitaciones y trabajo pendiente.
+- Revisión y mejora continua.
+
+La metodología se adapta a la naturaleza de cada proyecto. No todos requieren las mismas herramientas, tecnologías, modelos ni procedimientos.
+
+---
+
+05. Colaboración
+
+NepoPetro es un portafolio compartido.
+
+La participación no se limita a programar: investigar, formular problemas, modelar, diseñar, analizar, probar, documentar, revisar y proponer soluciones también constituyen contribuciones fundamentales.
+
+Cada proyecto puede contar con un equipo de trabajo integrado por personas de distintas disciplinas, con responsabilidades definidas según sus conocimientos, disponibilidad, objetivos y participación efectiva.
+
+La colaboración se organiza mediante herramientas de desarrollo y gestión que permiten registrar el trabajo y mantener la continuidad de los proyectos:
+
+- Issues: problemas, tareas, propuestas y preguntas.
+- Projects: planificación, seguimiento y organización.
+- Discussions: intercambio de ideas y debate técnico.
+- Pull Requests: revisión e integración de contribuciones.
+- Milestones: objetivos y etapas de desarrollo.
+- ADRs: registro de decisiones arquitectónicas y técnicas.
+- Documentación: metodologías, resultados, manuales y evidencia.
+
+---
+
+06. Integrantes
+
+El ecosistema reconoce la individualidad de sus integrantes y el carácter colectivo del trabajo.
+
+Cada miembro contará con una ficha que permita conocer su trayectoria, formación, áreas de interés, competencias, contribuciones y proyectos en los que participa.
+
+Las fichas estarán disponibles en el directorio:
+
+""/integrantes"" (./integrantes/)
+
+La participación en el ecosistema no implica que todos los integrantes trabajen en todos los proyectos, ni que tengan las mismas responsabilidades.
+
+Las contribuciones se documentarán de acuerdo con la participación real de cada persona.
+
+---
+
+07. Principios de trabajo
+
+Rigor técnico
+
+Las soluciones deben fundamentarse en criterios técnicos, evidencia, análisis y evaluación de sus limitaciones.
+
+Interdisciplinariedad
+
+Reconocemos que los problemas complejos rara vez pertenecen a una única disciplina.
+
+Reproducibilidad
+
+Siempre que sea posible, documentamos los procedimientos, fuentes, herramientas, versiones, parámetros y resultados necesarios para reproducir los experimentos.
+
+Transparencia
+
+Registramos las decisiones, cambios de metodología, limitaciones y resultados, incluyendo aquellos que no cumplen las hipótesis iniciales.
+
+Aprendizaje compartido
+
+El conocimiento generado durante el desarrollo de los proyectos constituye un recurso colectivo.
+
+Responsabilidad
+
+Respetamos la privacidad, la propiedad intelectual, la integridad de los datos, las licencias, las fuentes y los contextos en los que se desarrolla cada investigación.
+
+Construcción colectiva
+
+Valoramos las contribuciones individuales y entendemos que el resultado del trabajo interdisciplinario puede superar las posibilidades de desarrollo aislado.
+
+---
+
+08. Documentación y conocimiento
+
+La documentación forma parte del proceso de ingeniería.
+
+Cada proyecto podrá incorporar, según corresponda:
+
+- README y documentación técnica.
+- Arquitecturas y diagramas.
+- Modelos matemáticos y computacionales.
+- Notebooks y experimentos.
+- Análisis de datos.
+- Pruebas y validaciones.
+- ADRs y registros de decisiones.
+- PoCs y prototipos.
+- Manuales de instalación y operación.
+- Informes técnicos y publicaciones.
+- Evidencias de ejecución.
+- Versiones navegables de la documentación.
+
+Buscamos que el conocimiento no quede exclusivamente en el código ni dependa de la memoria individual de quienes participaron.
+
+---
+
+09. Idiomas
+
+La documentación general del ecosistema estará disponible en español, portugués e inglés, con el objetivo de facilitar la colaboración y la difusión internacional.
+
+- "Español" (./README.md)
+- "Português" (./README.pt.md)
+- "English" (./README.en.md)
+
+Las fichas individuales de los integrantes podrán incorporar información en los idiomas que cada persona considere pertinentes.
+
+---
+
+10. Participar
+
+Este espacio está abierto a personas interesadas en investigar, desarrollar, experimentar y construir soluciones de ingeniería en colaboración.
+
+La incorporación a un proyecto puede surgir de una propuesta, una investigación, una necesidad técnica, una idea experimental o el interés en un área de trabajo.
+
+Las propuestas pueden plantearse mediante Issues o Discussions en los repositorios correspondientes.
+
+La finalidad no es solamente construir proyectos: es construir conocimiento, experiencia y soluciones mediante el trabajo compartido.
+
+---
+
+NepoPetro
+
+Ingeniería, investigación y colaboración interdisciplinaria.
+
+"GitHub" (https://github.com/nepopetro)
