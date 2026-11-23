@@ -1,516 +1,398 @@
 # NepoPetro
 
-**Mapa de navegación, manual de colaboración y documentación del ecosistema**
+Bienvenidos a NepoPetro.
 
-[Inicio / Organization Profile](./profile/README.md) · [Repositorios](https://github.com/orgs/NepoPetro/repositories) · [Integrantes](./profile/integrantes/README.md) · [Proyectos](https://github.com/orgs/NepoPetro/projects)
+NepoPetro es un ecosistema colaborativo de investigación, desarrollo, experimentación y construcción de un portafolio técnico multidisciplinario.
 
----
-
-## 1. Bienvenido a NepoPetro
-
-NepoPetro es un espacio colaborativo de ingeniería, investigación, desarrollo tecnológico, experimentación y aprendizaje interdisciplinario.
-
-Este ecosistema reúne proyectos independientes que pueden compartir metodologías, herramientas, conocimientos, infraestructura, documentación, participantes y procesos de desarrollo.
-
-Su objetivo no es únicamente producir resultados, sino construir un registro verificable del proceso mediante el cual esos resultados se desarrollan: desde la formulación de un problema hasta su investigación, diseño, implementación, validación y documentación.
-
-Este repositorio funciona como **mapa general y manual de referencia para quienes desean conocer, recorrer o participar en NepoPetro**.
-
-Si acabás de llegar, podés comenzar por explorar los proyectos. Si querés participar, acá encontrarás cómo funciona el ecosistema, qué principios compartimos y cómo se organiza el trabajo.
+Este repositorio contiene el manual transversal de la organización: criterios de participación, metodología de trabajo, convenciones, gobernanza, documentación y navegación entre proyectos.
 
 ---
 
-## 2. Navegación del ecosistema
+## 1. ¿Qué es NepoPetro?
 
-NepoPetro se organiza como un conjunto de repositorios independientes que se relacionan entre sí.
+NepoPetro es un ecosistema de proyectos independientes que comparten principios de colaboración, investigación, documentación, trazabilidad, reproducibilidad y desarrollo abierto.
 
-### Presentación institucional
+Los proyectos pueden abordar diferentes disciplinas, tecnologías, problemas y metodologías, manteniendo una estructura común que facilite su comprensión, evolución y colaboración.
 
-| Recurso | Descripción |
-|---|---|
-| [Perfil de NepoPetro](./profile/README.md) | Presentación general del ecosistema en español, portugués e inglés. |
-| [Repositorio `.github`](https://github.com/NepoPetro/.github) | Manual, principios, organización, navegación y convenciones compartidas. |
-| [Integrantes](./profile/integrantes/README.md) | Perfiles y contribuciones de las personas participantes. |
-| [Todos los repositorios](https://github.com/orgs/NepoPetro/repositories) | Catálogo completo de proyectos de la organización. |
-| [Proyectos y planificación](https://github.com/orgs/NepoPetro/projects) | Tableros de organización y seguimiento, cuando estén disponibles. |
+El ecosistema permite integrar conocimientos de:
 
-### Proyectos
+- Ingeniería de Sistemas.
+- Arquitectura de Software.
+- Arquitectura de Datos.
+- Data Engineering.
+- Data Governance.
+- Data Stewardship.
+- Analytics y Visual Analytics.
+- Inteligencia Artificial.
+- Matemática aplicada.
+- Investigación científica.
+- Automatización.
+- Infraestructura.
+- Seguridad.
+- Educación.
+- Filosofía y ciencias sociales.
+- Desarrollo de software.
+- Experimentación interdisciplinaria.
 
-| Proyecto | Área | Descripción | Repositorio |
-|---|---|---|---|
-| Cigarra3301 | Ciencia de datos e investigación | Investigación interdisciplinaria sobre demografía, migración, desigualdad y territorio. | [Explorar](https://github.com/NepoPetro/Cigarra3301) |
-| 30kT | Investigación científico-computacional | Investigación sobre la cifra de 30.000 personas deportadas a Argentina, mediante fuentes, análisis y operaciones reproducibles. | [Explorar](https://github.com/NepoPetro/30kT) |
-| tmura | Ingeniería de software y arquitectura | Bridge entre Archify JSON IR y draw.io, con exploración de arquitectura, diagramación y linaje de datos. | [Explorar](https://github.com/NepoPetro/tmura) |
-| LaboratorioDeC-digo | Programación y aprendizaje | Laboratorio de práctica, experimentación con lenguajes, paradigmas y tecnologías. | [Explorar](https://github.com/NepoPetro/LaboratorioDeC-digo) |
-| 1DFlfRMH | Desarrollo de software | Proyecto de desarrollo, validación y testing de software. | [Explorar](https://github.com/NepoPetro/1DFlfRMH) |
-| antiprocrastinador | Experimentación y productividad | Exploración de gamificación, organización y herramientas para gestionar tareas y procesos. | [Explorar](https://github.com/NepoPetro/antiprocrastinador) |
-
-La lista no es definitiva. Los nuevos proyectos se incorporarán a medida que se creen y documenten.
-
-### Cómo navegar
-
-La navegación se plantea en dos direcciones:
-
-- **Vertical:** entrar en un repositorio y profundizar en su documentación, código, experimentos, decisiones y resultados.
-- **Horizontal:** volver al ecosistema, explorar otros proyectos, identificar relaciones, descubrir herramientas compartidas y encontrar nuevas áreas de colaboración.
-
-Los repositorios podrán incorporar enlaces de retorno a este mapa para facilitar el recorrido entre proyectos.
+Cada repositorio constituye un proyecto autónomo, con sus propios objetivos, metodología, decisiones, herramientas y entregables.
 
 ---
 
-## 3. ¿Qué es NepoPetro?
+## 2. Navegación
 
-NepoPetro es un portafolio colectivo de proyectos que pueden surgir de preguntas científicas, problemas técnicos, intereses profesionales, propuestas de investigación, ideas experimentales o necesidades concretas.
+### Organización
 
-No se limita a una disciplina ni a una tecnología.
+- [Repositorio de proyectos](https://github.com/orgs/NepoPetro/repositories)
+- [Proyectos de GitHub](https://github.com/orgs/NepoPetro/projects)
+- [Discussions](https://github.com/orgs/NepoPetro/discussions)
+- [Perfil institucional](./profile/README.md)
 
-La ingeniería, la matemática, la ciencia de datos, la programación, las ciencias sociales, la investigación científica, la electrónica, la inteligencia artificial, la simulación y otras áreas pueden coexistir dentro del ecosistema.
+### Manual y gobernanza
 
-Cada proyecto mantiene su identidad, sus objetivos, su metodología y sus responsables.
+Este repositorio contiene:
 
-La organización común permite que estos proyectos compartan una estructura documental, principios de colaboración y mecanismos para reconocer las contribuciones.
-
-### Qué buscamos construir
-
-- Proyectos técnicamente fundamentados.
-- Investigación documentada y reproducible.
-- Desarrollo de software y prototipos.
-- Modelos matemáticos y computacionales.
-- Experimentos y pruebas de concepto.
-- Herramientas que puedan reutilizarse.
-- Documentación técnica y científica.
-- Evidencia del trabajo individual y colectivo.
-- Redes de colaboración interdisciplinaria.
-- Un portafolio capaz de evolucionar con sus participantes.
+- Cómo participar.
+- Metodología de trabajo.
+- Convenciones de desarrollo.
+- Estructura documental.
+- Política de idiomas.
+- Gobernanza.
+- Trazabilidad.
+- Estándares de colaboración.
+- Navegación entre proyectos.
 
 ---
 
-## 4. Qué NepoPetro no es
+## 3. Proyectos
 
-NepoPetro **no es un empleo, una relación laboral, una empresa contratante ni una promesa de remuneración**.
+Cada proyecto tiene objetivos propios y puede encontrarse en diferentes etapas de desarrollo.
 
-La participación en el ecosistema no constituye por sí misma una contratación ni implica la existencia de salario, honorarios, becas, prestaciones o beneficios laborales.
+| Proyecto | Repositorio | Área |
+|---|---|---|
+| Cigarra3301 | [Repository](https://github.com/NepoPetro/Cigarra3301) | Investigación y experimentación |
+| 30kT | [Repository](https://github.com/NepoPetro/30kT) | Investigación multidisciplinaria |
+| Tmura | [Repository](https://github.com/NepoPetro/tmura) | Arquitectura, documentación y herramientas |
+| LaboratorioDeC-digo | [Repository](https://github.com/NepoPetro/LaboratorioDeC-digo) | Programación y formación técnica |
+| 1DFlfRMH | [Repository](https://github.com/NepoPetro/1DFlfRMH) | Analytics y visualización |
+| Antiprocrastinador | [Repository](https://github.com/NepoPetro/antiprocrastinador) | Herramientas y experimentación |
 
-Tampoco es una obligación de disponibilidad, un sistema de trabajo a tiempo completo ni un compromiso de participación indefinida.
-
-Es un espacio colaborativo donde cada participante decide, de acuerdo con sus posibilidades, intereses y acuerdos, qué proyectos desea explorar y qué contribuciones puede realizar.
-
-La participación debe ser transparente respecto de:
-
-- El carácter voluntario o acordado de cada colaboración.
-- El alcance de las tareas.
-- Los objetivos del proyecto.
-- La autoría de los resultados.
-- La disponibilidad de los participantes.
-- Las responsabilidades asumidas.
-- Los mecanismos de reconocimiento.
-
-Un proyecto puede eventualmente derivar en una publicación, una propuesta profesional, un prototipo, un producto, una oportunidad académica o una iniciativa externa. Sin embargo, ninguno de esos resultados se garantiza por participar.
-
-**El portafolio documenta trabajo real. No sustituye contratos, acuerdos profesionales ni instituciones formales.**
+La lista se actualizará conforme se incorporen nuevos proyectos al ecosistema.
 
 ---
 
-## 5. Por qué construir un portafolio colectivo
+## 4. ¿Qué no es NepoPetro?
 
-Un portafolio individual permite mostrar las capacidades de una persona. Un portafolio colectivo permite además demostrar cómo esas capacidades se integran en proyectos compartidos.
+NepoPetro no constituye una relación laboral.
 
-La complejidad de los problemas contemporáneos frecuentemente excede el conocimiento de una sola disciplina o persona.
+La participación en la organización no implica:
+
+- Contrato de trabajo.
+- Remuneración.
+- Promesa de contratación.
+- Obligación de disponibilidad horaria.
+- Exclusividad.
+- Sustitución de empleo.
+- Garantía de certificaciones.
+- Garantía de resultados profesionales.
+
+La participación es colaborativa y se fundamenta en el desarrollo de proyectos, la adquisición de experiencia, la investigación, la documentación y la construcción de un portafolio técnico verificable.
+
+Cada participante decide su nivel de involucramiento, sujeto a las reglas de participación y reconocimiento de contribuciones establecidas en este manual.
+
+---
+
+## 5. ¿Por qué construir un portafolio colectivo?
+
+El portafolio colectivo permite que los conocimientos y contribuciones individuales se integren en proyectos con mayor alcance que los que podrían desarrollarse de manera aislada.
 
 La colaboración permite:
 
-- Combinar conocimientos complementarios.
-- Aprender tecnologías y metodologías mediante proyectos reales.
-- Desarrollar experiencia en equipos interdisciplinarios.
-- Participar en procesos de investigación y desarrollo.
-- Revisar, discutir y mejorar el trabajo de otras personas.
-- Construir soluciones más completas.
-- Documentar procesos técnicos que habitualmente permanecen invisibles.
-- Desarrollar experiencia con herramientas de colaboración.
-- Demostrar capacidad de organización y comunicación.
-- Construir un historial de contribuciones verificables.
-- Crear oportunidades de colaboración futuras.
+- Resolver problemas interdisciplinarios.
+- Compartir conocimientos.
+- Aprender metodologías de trabajo colaborativo.
+- Practicar el desarrollo mediante Git.
+- Utilizar GitHub como plataforma de gestión.
+- Participar en revisiones técnicas.
+- Documentar decisiones.
+- Desarrollar proyectos reproducibles.
+- Generar evidencia verificable de contribuciones.
+- Construir experiencia técnica pública.
+- Mejorar la capacidad de comunicación profesional.
+- Integrar diferentes perspectivas culturales y lingüísticas.
 
-El valor del portafolio no reside exclusivamente en la cantidad de repositorios ni en la apariencia de los resultados.
-
-Reside en la posibilidad de demostrar qué problema se abordó, qué decisiones se tomaron, qué herramientas se utilizaron, qué dificultades se encontraron, qué resultados se obtuvieron y qué aprendió cada participante.
-
-### El valor individual dentro del colectivo
-
-El portafolio colectivo no elimina la identidad profesional individual.
-
-Cada persona puede utilizar las contribuciones documentadas para construir su propio portafolio, CV, perfil profesional, presentación académica o trayectoria técnica.
-
-El colectivo proporciona contexto; los registros de contribución permiten identificar el trabajo individual.
+El portafolio colectivo permite que cada participante pueda demostrar su intervención mediante evidencia técnica y documental vinculada a los proyectos.
 
 ---
 
-## 6. Participación y reconocimiento
+## 6. Participación y reconocimiento de contribuciones
 
-La participación en NepoPetro se basa en la colaboración documentada, el intercambio de conocimientos y las contribuciones verificables a los proyectos.
+La participación en NepoPetro se fundamenta en contribuciones verificables.
 
-Para que una participación pueda acreditarse formalmente dentro del portafolio colectivo, es obligatorio participar en los espacios de discusión del proyecto y realizar contribuciones mediante Pull Requests.
-
-### Requisitos de participación acreditable
-
-La acreditación de participación requiere:
-
-1. **Participación en Discussions:** intervenir en las discusiones técnicas, científicas, metodológicas, organizativas o de planificación del proyecto.
-2. **Pull Requests:** proponer y realizar contribuciones mediante Pull Requests.
-3. **Commits atribuibles:** contar con commits asociados a las contribuciones realizadas, de modo que el historial permita identificar y verificar el trabajo desarrollado.
-4. **Revisión:** participar en el flujo de revisión establecido por el proyecto y respetar sus procedimientos de integración.
-
-La participación no se acredita únicamente por pertenecer a la organización, figurar en un listado de integrantes, asistir a reuniones o expresar interés en un proyecto.
-
-El reconocimiento se fundamenta en la actividad documentada y en las contribuciones efectivamente realizadas.
-
-### Tipos de contribución
-
-Los commits no se limitan al código fuente. Pueden documentar contribuciones en:
-
-- Investigación bibliográfica y fuentes.
-- Documentación científica y técnica.
-- Traducciones.
-- Modelos matemáticos.
-- Análisis estadístico.
-- Bases de datos.
-- Código fuente.
-- Scripts y automatizaciones.
-- Notebooks.
-- Diagramas y arquitectura.
-- Tests y validaciones.
-- Diseño experimental.
-- Prototipos.
-- Visualizaciones.
-- Documentación de decisiones.
-- Revisión y mejora de contenidos.
-
-La contribución debe quedar incorporada al repositorio mediante el flujo correspondiente, permitiendo mantener su trazabilidad.
+La incorporación a la organización, la asistencia a reuniones o la manifestación de interés no constituyen, por sí solas, evidencia suficiente de participación activa para obtener reconocimiento de contribución.
 
 ### Evidencia de participación
 
-| Evidencia | Función |
-|---|---|
-| Discussions | Documentar la participación en discusiones y el intercambio de ideas. |
-| Pull Requests | Registrar propuestas, cambios, revisión y proceso de integración. |
-| Commits | Identificar los cambios concretos realizados por cada participante. |
-| GitHub Actions | Registrar la ejecución de validaciones y automatizaciones del proyecto. |
-| Issues | Documentar tareas, problemas, propuestas y objetivos. |
-| ADR | Registrar decisiones técnicas y arquitectónicas. |
-| Tests | Evidenciar procesos de verificación y validación. |
-| Releases | Documentar versiones y resultados entregables. |
+La participación se demuestra mediante actividades registradas en GitHub, incluyendo:
 
-La combinación de Discussions y Pull Requests permite demostrar tanto la participación en el proceso de desarrollo como las contribuciones materiales realizadas.
+- Participación en Discussions.
+- Creación y desarrollo de Issues.
+- Pull Requests.
+- Commits atribuibles al participante.
+- Revisión de Pull Requests.
+- Documentación.
+- Traducciones.
+- Investigación.
+- Desarrollo de código.
+- Pruebas.
+- Diagramas.
+- Modelos matemáticos.
+- Automatizaciones.
+- Validaciones.
+- Correcciones.
+- Análisis.
+- Otros entregables incorporados al proyecto mediante el flujo de colaboración.
 
-### Atribución
+### Criterio de participación
 
-Las contribuciones deben ser reconocibles y verificables.
+La participación activa para obtener reconocimiento de contribución requiere:
 
-La identidad de cada participante puede relacionarse con sus perfiles, commits, PRs, Discussions y demás registros disponibles.
+1. Participación en Discussions.
+2. Desarrollo de contribuciones incorporadas mediante Pull Requests.
+3. Commits atribuibles al participante.
+4. Cumplimiento de los procedimientos de revisión del proyecto.
 
-El objetivo es que el portafolio permita identificar no solamente qué proyectos existen, sino también qué personas participaron, en qué actividades y qué aportes realizaron.
+Las contribuciones deben ser trazables y verificables.
+
+No se establece que todos los participantes deban contribuir de la misma manera. Las tareas pueden adaptarse a sus conocimientos, objetivos y disponibilidad.
 
 ---
 
 ## 7. Cómo incorporarse
 
-NepoPetro está abierto a personas interesadas en aprender, investigar, desarrollar, experimentar o contribuir desde diferentes áreas de conocimiento.
+La incorporación al ecosistema se realiza mediante participación progresiva.
 
-La incorporación a un proyecto implica aceptar su metodología de colaboración, sus convenciones y los requisitos establecidos para documentar las contribuciones.
+### Etapa 1. Exploración
 
-### Paso 1. Explorar
+Explorar los repositorios y seleccionar aquellos proyectos que resulten de interés.
 
-Recorrer el mapa de proyectos y leer los README de las iniciativas que despierten interés.
+### Etapa 2. Comprensión
 
-### Paso 2. Identificar un área
+Leer el README, la documentación disponible, los Issues y las Discussions.
 
-Buscar tareas, preguntas, problemas, experimentos o necesidades relacionadas con los conocimientos o intereses propios.
+Identificar:
 
-### Paso 3. Conocer el proyecto
+- Objetivos.
+- Estado del proyecto.
+- Metodología.
+- Problemas abiertos.
+- Tecnologías utilizadas.
+- Áreas de colaboración.
 
-Revisar sus objetivos, metodología, estado de desarrollo, documentación, idiomas y condiciones de participación.
+### Etapa 3. Participación
 
-### Paso 4. Participar en Discussions
+Participar en Discussions para conocer el contexto y proponer ideas, preguntas o soluciones.
 
-La participación en Discussions es obligatoria para formar parte del proceso colaborativo acreditable.
+### Etapa 4. Selección de una contribución
 
-Este espacio permite discutir propuestas, formular preguntas, presentar ideas, analizar alternativas y construir acuerdos.
+Identificar una tarea abordable y acordar su alcance cuando corresponda.
 
-### Paso 5. Proponer contribuciones mediante Pull Requests
+### Etapa 5. Desarrollo
 
-Todos los proyectos utilizan Pull Requests para proponer, revisar e integrar contribuciones.
+Trabajar mediante ramas y commits, respetando las convenciones del repositorio.
 
-El trabajo debe realizarse de forma que los cambios puedan ser revisados, atribuidos y documentados.
+### Etapa 6. Pull Request
 
-### Paso 6. Obtener commits verificables
+Presentar la contribución mediante un Pull Request para revisión.
 
-Las contribuciones deben producir commits atribuibles al participante.
+### Etapa 7. Revisión y validación
 
-Los commits pueden incluir código, documentación, traducciones, investigación, diagramas, tests, configuración, automatización u otros materiales pertinentes.
+Las contribuciones serán revisadas según los criterios técnicos, documentales y metodológicos correspondientes.
 
-### Paso 7. Participar en la revisión
+### Etapa 8. Integración
 
-Los Pull Requests forman parte del proceso de revisión del proyecto.
-
-Los cambios deben pasar por los controles, revisiones y validaciones correspondientes antes de su integración.
-
-### Paso 8. Mantener la documentación
-
-La contribución debe conservar la información necesaria para comprender su propósito, contexto, alcance y resultado.
-
-### Requisitos generales
-
-Para acreditar participación dentro de NepoPetro, el flujo de contribución requiere:
-
-- Participación en Discussions.
-- Contribuciones mediante Pull Requests.
-- Commits atribuibles.
-- Revisión conforme al procedimiento del proyecto.
-- Cumplimiento de las convenciones documentales y lingüísticas.
-- Utilización de los mecanismos de automatización establecidos.
-
-La participación puede desarrollarse con diferentes niveles de experiencia y desde diferentes disciplinas, siempre respetando el proceso común.
+Una vez aprobada, la contribución podrá integrarse al proyecto.
 
 ---
 
-## 8. Estructura común de los repositorios
+## 8. Estructura de referencia
 
-Los proyectos de NepoPetro son independientes, pero procuramos mantener convenciones comunes para facilitar la navegación, colaboración y comprensión de sus contenidos.
+La siguiente estructura constituye una referencia transversal para los repositorios de NepoPetro.
 
-La estructura no es una plantilla rígida. Cada proyecto podrá adaptar, ampliar o reducir sus directorios según sus necesidades.
-
-### Estructura de referencia
+No es una plantilla rígida. Cada proyecto puede adaptarla según su naturaleza, alcance, metodología y necesidades técnicas.
 
 ```text
-project/
+repository/
+│
 ├── README.md
 ├── README.pt.md
 ├── README.en.md
+│
 ├── LICENSE
 ├── CONTRIBUTING.md
 ├── CODE_OF_CONDUCT.md
 ├── SECURITY.md
 ├── CITATION.cff
+│
 ├── docs/
 │   ├── architecture/
 │   ├── methodology/
+│   ├── specifications/
 │   ├── decisions/
+│   │   └── ADR/
+│   ├── governance/
 │   ├── research/
-│   ├── references/
-│   └── reports/
+│   └── publications/
+│
 ├── src/
+│   └── implementation/
+│
 ├── tests/
+│   ├── unit/
+│   ├── integration/
+│   └── validation/
+│
 ├── examples/
 ├── notebooks/
+│
 ├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── synthetic/
+│
 ├── models/
 ├── scripts/
 ├── diagrams/
 ├── assets/
 ├── experiments/
+│
 ├── .github/
 │   ├── ISSUE_TEMPLATE/
 │   ├── PULL_REQUEST_TEMPLATE.md
+│   ├── DISCUSSION_TEMPLATE/
 │   └── workflows/
+│       ├── tests.yml
+│       ├── documentation.yml
+│       ├── lint.yml
+│       └── validation.yml
+│
 └── project-specific-directories/
 ````
 
-No todos los directorios deben existir en todos los proyectos.
+### Consideraciones
 
-Por ejemplo, un repositorio documental puede no necesitar `src/`; un proyecto de software puede requerir `tests/`; una investigación puede utilizar `notebooks/`, `data/` y `experiments/`; y un proyecto de hardware puede necesitar planos, esquemas, BOM y documentación de fabricación.
+Los elementos transversales de gobernanza y colaboración deben mantenerse en todos los proyectos.
 
-### Elementos comunes recomendados
+La incorporación de directorios técnicos dependerá del proyecto.
 
-| Elemento        | Función                                                    |
-| --------------- | ---------------------------------------------------------- |
-| README.md       | Punto de entrada y descripción del proyecto en español.    |
-| README.pt.md    | Documentación en portugués.                                |
-| README.en.md    | Documentación en inglés.                                   |
-| docs/           | Documentación detallada.                                   |
-| LICENSE         | Condiciones de uso, distribución y modificación.           |
-| CONTRIBUTING.md | Guía de contribución.                                      |
-| CITATION.cff    | Información para citar el proyecto, cuando corresponda.    |
-| tests/          | Pruebas y validaciones.                                    |
-| examples/       | Ejemplos de utilización.                                   |
-| .github/        | Automatizaciones, plantillas y mecanismos de colaboración. |
+Por ejemplo:
 
-### El README de cada proyecto
+| Directorio          | Aplicación                                          |
+| ------------------- | --------------------------------------------------- |
+| src/                | Código fuente                                       |
+| tests/              | Pruebas                                             |
+| docs/               | Documentación                                       |
+| docs/decisions/ADR/ | Registro de decisiones arquitectónicas              |
+| notebooks/          | Análisis y experimentación                          |
+| data/               | Gestión de datos                                    |
+| models/             | Modelos matemáticos, estadísticos o computacionales |
+| scripts/            | Automatización                                      |
+| diagrams/           | Diagramas técnicos                                  |
+| experiments/        | Experimentos reproducibles                          |
+| assets/             | Recursos gráficos y multimedia                      |
+| .github/workflows/  | Automatización mediante GitHub Actions              |
 
-Cada README debería permitir responder rápidamente:
-
-* ¿Qué es este proyecto?
-
-* ¿Qué problema aborda?
-
-* ¿Cuál es su objetivo?
-
-* ¿Cuál es su estado actual?
-
-* ¿Qué metodología utiliza?
-
-* ¿Cómo se reproduce o ejecuta?
-
-* ¿Cómo está organizado?
-
-* ¿Cómo se puede contribuir?
-
-* ¿Qué resultados produjo?
-
-* ¿Cuáles son sus limitaciones?
-
-* ¿Quiénes participan?
-
-* ¿Cómo se puede volver al ecosistema NepoPetro?
+Los directorios pueden reorganizarse siempre que se mantenga la trazabilidad y la documentación de la estructura del proyecto.
 
 ### 9\. Convenciones de desarrollo
 
-Los proyectos de NepoPetro comparten un flujo de desarrollo basado en Git, Pull Requests, revisión y automatización.
+Todos los proyectos del ecosistema utilizan Git y GitHub como mecanismos de colaboración, control de versiones y trazabilidad.
 
-Estas convenciones son obligatorias para los proyectos que forman parte del ecosistema.
+### Elementos obligatorios
 
-### Control de versiones
+* Control de versiones mediante Git.
 
-Todos los proyectos utilizan Git para mantener un historial de cambios.
+* Desarrollo mediante ramas cuando corresponda.
 
-Las contribuciones deben ser atribuibles y permitir identificar qué modificaciones fueron realizadas, por quién y en qué contexto.
+* Pull Requests.
 
-### Pull Requests
+* Commits atribuibles.
 
-Todos los proyectos trabajan mediante Pull Requests.
+* Revisión de contribuciones.
 
-Los Pull Requests constituyen el mecanismo común para:
+* Issues para seguimiento de tareas y problemas.
 
-* Proponer cambios.
+* Discussions para intercambio y deliberación.
 
-* Presentar contribuciones.
-
-* Revisar código y documentación.
-
-* Discutir modificaciones.
-
-* Ejecutar validaciones.
-
-* Integrar cambios.
-
-* Mantener trazabilidad.
-
-No se utiliza la incorporación directa de cambios como mecanismo ordinario de contribución.
-
-### Commits
-
-Las contribuciones deben quedar representadas por commits verificables.
-
-Los commits deben procurar ser comprensibles y estar relacionados con el alcance del Pull Request.
-
-El historial permite demostrar la participación efectiva de cada integrante.
-
-### GitHub Actions
-
-Todos los proyectos utilizan GitHub Actions.
-
-Las Actions constituyen el mecanismo común de automatización y validación de los flujos de desarrollo.
-
-Según la naturaleza del proyecto, podrán ejecutar:
-
-* Tests.
-
-* Validación de archivos.
-
-* Linting.
-
-* Compilación.
-
-* Validación de documentación.
-
-* Verificación de enlaces.
-
-* Comprobación de estructura.
-
-* Validación de traducciones.
-
-* Validación de datos.
-
-* Verificación de reproducibilidad.
-
-* Generación de artefactos.
-
-* Publicación de documentación.
-
-* Otros controles automatizados.
-
-Los controles específicos dependen de las características del proyecto, pero la integración de GitHub Actions forma parte de la estructura común de desarrollo.
-
-### Revisión
-
-Los Pull Requests deben someterse al proceso de revisión definido por el proyecto.
-
-La revisión permite verificar:
-
-* Correctitud.
-
-* Calidad.
-
-* Coherencia metodológica.
-
-* Seguridad.
+* GitHub Actions para automatización.
 
 * Documentación.
 
-* Cumplimiento de convenciones.
+* Trazabilidad de decisiones y cambios.
 
-* Resultados de las automatizaciones.
+### GitHub Actions
 
-* Compatibilidad con el alcance del proyecto.
+Todos los proyectos deben incorporar GitHub Actions.
 
-### Discussions
+Los workflows se adaptarán a las características de cada proyecto y podrán incluir:
 
-Discussions es el espacio formal para el intercambio de ideas, propuestas, preguntas, análisis y planificación.
+* Ejecución de pruebas.
 
-La participación en Discussions forma parte de los requisitos para acreditar participación dentro del ecosistema.
+* Validación de código.
 
-### Issues
+* Linting.
 
-Los Issues permiten organizar problemas, tareas, propuestas, objetivos y necesidades de los proyectos.
+* Validación de documentación.
 
-Pueden relacionarse con Discussions y Pull Requests para mantener trazabilidad entre la propuesta, el desarrollo y el resultado.
+* Comprobación de enlaces.
 
-### Automatización
+* Generación de artefactos.
 
-La automatización no es únicamente una herramienta complementaria.
+* Automatización de publicaciones.
 
-Forma parte del proceso de desarrollo, revisión y validación de los proyectos.
+* Validación de datos.
 
-Las GitHub Actions deben adaptarse al contexto de cada repositorio, procurando que los controles sean útiles, reproducibles y mantenibles.
+* Validación de reproducibilidad.
+
+* Construcción y despliegue.
+
+* Integración continua.
+
+Los workflows deben documentarse y mantenerse de acuerdo con la evolución del proyecto.
 
 ### 10\. Metodología de trabajo
 
-No existe una metodología universal obligatoria para todos los proyectos.
+Los proyectos pueden adaptar sus metodologías, manteniendo un ciclo de trabajo verificable.
 
-La naturaleza de cada iniciativa determina los métodos, herramientas y procesos apropiados.
+```mermaid
+flowchart TD
+    A["Identificación del problema"] --> B["Investigación"]
+    B --> C["Definición de objetivos"]
+    C --> D["Diseño y planificación"]
+    D --> E["Desarrollo"]
+    E --> F["Documentación"]
+    F --> G["Validación"]
+    G --> H["Pull Request"]
+    H --> I["Revisión"]
+    I --> J["Integración"]
+    J --> K["Publicación"]
 
-Sin embargo, como referencia, los proyectos pueden organizarse en las siguientes etapas:
+    G -->|Correcciones| E
+    I -->|Cambios solicitados| E
+    K --> L["Evaluación y evolución"]
+    L --> A
+```
 
-| Etapa             | Propósito                                                               |
-| ----------------- | ----------------------------------------------------------------------- |
-| 01. Exploración   | Identificar problemas, contexto, necesidades y oportunidades.           |
-| 02. Investigación | Revisar antecedentes, bibliografía, fuentes y conocimientos existentes. |
-| 03. Definición    | Establecer objetivos, alcance, hipótesis y requisitos.                  |
-| 04. Diseño        | Definir arquitectura, metodología, modelos y experimentos.              |
-| 05. Desarrollo    | Construir sistemas, herramientas, modelos, prototipos o soluciones.     |
-| 06. Validación    | Evaluar resultados, verificar funcionamiento y contrastar hipótesis.    |
-| 07. Documentación | Registrar decisiones, procesos, resultados y limitaciones.              |
-| 08. Revisión      | Analizar el trabajo y recibir aportes.                                  |
-| 09. Evolución     | Mejorar, ampliar, mantener o integrar el proyecto.                      |
+El ciclo puede ser iterativo.
 
-Estas etapas pueden ser iterativas, paralelas o adaptarse a las características de cada investigación.
+No todos los proyectos requieren que las etapas sean estrictamente secuenciales.
 
-### 11\. Decisiones y trazabilidad
+### 11\. Registro de decisiones
 
-Las decisiones relevantes deben poder comprenderse a partir de su contexto.
+Las decisiones técnicas, metodológicas, arquitectónicas y organizativas relevantes deben documentarse.
 
-Cuando sea útil, los proyectos podrán utilizar Architecture Decision Records (ADR) u otros formatos de registro de decisiones.
+Cuando corresponda, se utilizarán Architecture Decision Records (ADR).
 
-Una decisión puede documentar:
+Los ADR permiten registrar:
 
 * Contexto.
 
@@ -518,49 +400,21 @@ Una decisión puede documentar:
 
 * Alternativas evaluadas.
 
-* Criterios de evaluación.
-
 * Decisión adoptada.
+
+* Justificación.
 
 * Consecuencias.
 
-* Limitaciones.
+* Riesgos.
 
-* Evidencia.
+* Estado de la decisión.
 
-* Fecha y participantes.
+La documentación de decisiones facilita la comprensión histórica del proyecto y evita depender exclusivamente del conocimiento informal de sus participantes.
 
-El objetivo no es registrar cada detalle cotidiano, sino preservar el razonamiento detrás de las decisiones que afectan la evolución del proyecto.
+### 12\. Política de idiomas
 
-La trazabilidad busca relacionar:
-
-```text
-Problema
-    ↓
-Objetivos
-    ↓
-Investigación y fuentes
-    ↓
-Hipótesis y requisitos
-    ↓
-Decisiones
-    ↓
-Implementación
-    ↓
-Validación
-    ↓
-Resultados
-    ↓
-Contribuciones
-```
-
-Esta relación facilita la revisión, reproducibilidad, auditoría y continuidad de los proyectos.
-
-### 12\. Idiomas
-
-NepoPetro establece un sistema multilingüe obligatorio para todos sus proyectos.
-
-Los tres idiomas base del ecosistema son:
+Los tres idiomas oficiales de documentación y comunicación de NepoPetro son:
 
 * Español.
 
@@ -568,180 +422,157 @@ Los tres idiomas base del ecosistema son:
 
 * Inglés.
 
-Todos los proyectos deben mantener documentación en los tres idiomas.
+La documentación principal de todos los proyectos debe mantenerse en los tres idiomas.
 
-La incorporación de otros idiomas está permitida y es bienvenida, pero no reemplaza ni reduce la obligación de mantener las versiones en español, portugués e inglés.
+### Documentación obligatoria
 
-### Español
+Cada proyecto deberá mantener versiones equivalentes de su documentación principal.
 
-Es uno de los idiomas obligatorios del ecosistema y constituye el idioma principal de comunicación y documentación general.
-
-### Português
-
-Es obligatorio y permite ampliar la colaboración con Brasil y otros espacios lusófonos.
-
-### English
-
-Es obligatorio y facilita la comunicación con comunidades internacionales, la difusión técnica y científica y el intercambio de conocimiento.
-
-### Idiomas adicionales
-
-Los proyectos pueden incorporar cualquier otro idioma.
-
-En particular, si una persona participante es hablante nativa de una lengua diferente del español, portugués o inglés, puede incorporar esa lengua al proyecto, así como otros idiomas que domine.
-
-La incorporación de idiomas adicionales permite:
-
-* Ampliar la accesibilidad.
-
-* Reconocer la diversidad lingüística de los participantes.
-
-* Facilitar la participación de nuevas comunidades.
-
-* Difundir los proyectos en otros contextos culturales.
-
-* Evitar que la producción de conocimiento quede limitada a un único contexto lingüístico.
-
-### Procedimiento de traducción
-
-La incorporación de un idioma adicional no sustituye las tres versiones obligatorias.
-
-Cuando una persona contribuye en un idioma adicional, el contenido original puede desarrollarse en ese idioma y posteriormente incorporarse al flujo de traducción de las versiones obligatorias.
-
-Los administradores y reviewers del ecosistema participan en la coordinación, traducción y revisión de las versiones en los tres idiomas base, de manera que el contenido pueda mantenerse disponible en español, portugués e inglés.
-
-El procedimiento procura conservar:
-
-* El significado original.
-
-* La precisión técnica.
-
-* La terminología.
-
-* El contexto cultural.
-
-* La coherencia entre versiones.
-
-* La trazabilidad de las modificaciones.
-
-### Documentación multilingüe
-
-Los repositorios deben procurar mantener versiones equivalentes de la documentación principal.
-
-Ejemplo:
+Por ejemplo:
 
 ```text
 README.md
 README.pt.md
 README.en.md
-README.<idioma-adicional>.md
 ```
 
-La documentación adicional puede utilizar una estructura equivalente.
+La versión adicional en otros idiomas podrá seguir una nomenclatura equivalente:
 
-Las traducciones deben actualizarse cuando los cambios del documento original afecten su contenido.
+```text
+README.<language-code>.md
+```
 
-### Principio lingüístico
+### Participación lingüística
 
-La diversidad lingüística constituye una característica estructural del ecosistema.
+Los participantes podrán contribuir en otros idiomas.
 
-El español, portugués e inglés son mínimos obligatorios, no un límite de idiomas.
+Si una persona tiene como lengua nativa una lengua distinta del español, portugués o inglés, podrá incorporar esa lengua al proyecto y contribuir también en otros idiomas que conozca.
 
-NepoPetro promueve la incorporación de otras lenguas y el reconocimiento de las capacidades lingüísticas de sus participantes, manteniendo la disponibilidad de documentación en los tres idiomas comunes para facilitar la colaboración transversal.
+Sin embargo, la incorporación de idiomas adicionales no sustituye la obligación de mantener las tres lenguas oficiales.
 
-### 13\. Principios del ecosistema
+### Traducción y revisión
 
-### Colaboración
+La traducción, actualización y revisión de la documentación entre los tres idiomas oficiales será coordinada por administradores y reviewers.
 
-El conocimiento puede desarrollarse mediante el intercambio de ideas, experiencias y capacidades.
+Las contribuciones podrán incluir:
 
-### Interdisciplinariedad
+* Traducción.
 
-Los problemas pueden abordarse desde diferentes perspectivas y disciplinas.
+* Revisión lingüística.
 
-### Rigor
+* Corrección terminológica.
 
-Las afirmaciones deben estar fundamentadas y los métodos deben ser apropiados para los objetivos.
+* Adaptación técnica.
 
-### Transparencia
+* Verificación de equivalencia conceptual.
 
-Las decisiones, limitaciones y procesos relevantes deben documentarse.
+* Actualización de documentación desfasada.
 
-### Reproducibilidad
+Las traducciones no deben limitarse a una sustitución literal de palabras. Deben conservar el sentido técnico, científico y metodológico del documento original.
 
-Siempre que sea posible, los procedimientos y resultados deben poder verificarse.
+### Objetivo
+
+La política multilingüe permite ampliar el acceso, facilitar la colaboración internacional y construir documentación técnicamente equivalente entre diferentes comunidades lingüísticas.
+
+### 13\. Principios transversales
+
+Todos los proyectos de NepoPetro deben procurar mantener los siguientes principios:
 
 ### Trazabilidad
 
-Buscamos establecer relaciones comprensibles entre fuentes, decisiones, procesos, resultados y contribuciones.
+Los cambios, decisiones y contribuciones deben poder rastrearse.
 
-### Aprendizaje
+### Reproducibilidad
 
-El ecosistema también constituye un espacio de experimentación, formación y desarrollo profesional.
+Los procedimientos, experimentos y resultados deben documentarse de manera que puedan ser reproducidos cuando sea técnicamente posible.
 
-### Responsabilidad
+### Transparencia
 
-Los proyectos deben considerar sus implicaciones técnicas, sociales, éticas, legales y ambientales.
+La metodología, limitaciones, decisiones y criterios de validación deben estar documentados.
 
-### Apertura
+### Colaboración
 
-Promovemos el intercambio de conocimiento y la colaboración, respetando las licencias, la privacidad, la seguridad y los derechos de las personas.
+El trabajo debe permitir la participación de otras personas mediante mecanismos públicos y verificables.
 
-### Reconocimiento
+### Interdisciplinariedad
 
-El trabajo realizado debe poder atribuirse y reconocerse de manera transparente.
+Los proyectos pueden integrar diferentes disciplinas, metodologías y perspectivas.
+
+### Documentación
+
+La documentación constituye parte del desarrollo, no una actividad secundaria.
+
+### Validación
+
+Los resultados deben someterse a mecanismos de revisión y validación acordes con su naturaleza.
+
+### Evolución
+
+Los proyectos pueden cambiar de objetivos, metodologías, tecnologías y alcance, siempre que las decisiones relevantes sean documentadas.
 
 ### 14\. Seguridad, privacidad y ética
 
-La colaboración abierta no implica que toda información deba publicarse.
+Los proyectos deben considerar las implicancias éticas, legales, sociales y técnicas de sus actividades.
 
-Los proyectos deben evaluar qué datos, documentos, resultados y materiales pueden compartirse públicamente.
+Cuando corresponda, se deberán implementar mecanismos para:
 
-No deben incorporarse al repositorio:
+* Proteger datos sensibles.
 
-* Credenciales.
+* Evitar la exposición de credenciales.
 
-* Tokens.
+* Gestionar secretos.
 
-* Contraseñas.
+* Respetar licencias.
 
-* Secretos de infraestructura.
+* Identificar riesgos.
 
-* Datos personales innecesarios.
+* Documentar limitaciones.
 
-* Información confidencial sin autorización.
+* Evitar la publicación de información confidencial.
 
-* Información sensible protegida.
+* Respetar derechos de terceros.
 
-* Datos que infrinjan derechos de terceros.
+* Identificar riesgos de uso indebido.
 
-Cuando el proyecto involucre datos personales, investigaciones con seres humanos, salud, poblaciones vulnerables o información potencialmente sensible, deberán considerarse las medidas de privacidad, seguridad, ética y cumplimiento aplicables.
+* Aplicar principios de minimización de datos.
 
-La publicación de código o documentación no reemplaza las autorizaciones necesarias para utilizar datos o realizar investigaciones.
+* Garantizar la seguridad de las implementaciones.
+
+Los datos privados, confidenciales o protegidos no deben incorporarse a repositorios públicos.
+
+La documentación y las prácticas de seguridad deben adaptarse al contexto de cada proyecto.
 
 ### 15\. Licencias y propiedad intelectual
 
-Cada proyecto debe definir, cuando corresponda, las condiciones de utilización, modificación y distribución de su código, documentación, modelos y otros materiales.
+Cada proyecto debe definir una licencia apropiada para sus componentes.
 
-La colaboración no implica automáticamente que todos los contenidos tengan la misma licencia.
+La licencia deberá especificar las condiciones de uso, distribución, modificación y atribución.
 
-Antes de incorporar materiales externos, se deben revisar sus condiciones de uso y atribución.
+Las contribuciones deben respetar:
 
-Las contribuciones deben respetar la autoría y los derechos de sus participantes.
+* Licencias de terceros.
 
-Las condiciones específicas de cada proyecto prevalecen sobre las convenciones generales del ecosistema cuando exista una definición explícita y válida.
+* Derechos de autor.
+
+* Propiedad intelectual.
+
+* Condiciones de reutilización.
+
+* Restricciones aplicables.
+
+* Atribución de fuentes.
+
+Los participantes deben verificar que los materiales incorporados al proyecto puedan ser utilizados y distribuidos legalmente.
 
 ### 16\. Organización del trabajo
 
-Cada proyecto puede organizar sus tareas y actividades de acuerdo con su escala y necesidades.
+La gestión del trabajo puede realizarse mediante:
 
-Las herramientas disponibles incluyen:
-
-* GitHub Issues.
-
-* Pull Requests.
+* Issues.
 
 * Discussions.
+
+* Pull Requests.
 
 * Milestones.
 
@@ -749,138 +580,211 @@ Las herramientas disponibles incluyen:
 
 * Wikis.
 
-* GitHub Actions.
+* ADR.
 
-* Notebooks.
+* Roadmaps.
 
-* Documentación técnica.
+* Documentación.
 
-* Tableros externos, cuando corresponda.
+Cada proyecto puede adoptar herramientas adicionales de acuerdo con sus necesidades.
 
-La organización debe permitir que las personas comprendan qué está sucediendo sin exigir que todas participen en todos los proyectos.
+Las tareas deben procurar ser suficientemente claras para facilitar su comprensión, asignación, desarrollo, revisión y seguimiento.
 
-La planificación es una herramienta de coordinación, no una obligación de disponibilidad permanente.
+### 17\. Perfiles de participantes
 
-### 17\. Perfiles de integrantes
+La colaboración no está limitada a un único perfil técnico.
 
-El ecosistema puede contar con perfiles individuales que documenten la trayectoria, los intereses y las contribuciones de cada participante.
+Los proyectos pueden recibir contribuciones de personas con experiencia o interés en:
 
-Los perfiles pueden incluir:
+* Desarrollo.
 
-* Nombre o identificador elegido.
+* Ingeniería.
 
-* Áreas de interés.
+* Ciencia.
 
-* Conocimientos.
+* Matemática.
 
-* Tecnologías.
+* Análisis de datos.
 
-* Proyectos en los que participa.
+* Arquitectura.
 
-* Contribuciones.
+* Diseño.
 
-* Producciones.
+* Documentación.
 
-* Enlaces profesionales.
+* Traducción.
 
-* Objetivos de aprendizaje.
+* Educación.
 
-Cada integrante decide qué información personal desea publicar.
+* Investigación.
 
-Los perfiles no deben interpretarse como una clasificación jerárquica de participantes ni como una evaluación de su valor dentro del ecosistema.
+* Comunicación.
 
-La finalidad es facilitar la identificación de capacidades, intereses y aportes, así como la construcción de trayectorias individuales.
+* Seguridad.
 
-Explorar perfiles de integrantes
+* Testing.
 
-### 18\. El nombre NepoPetro
+* Gestión de proyectos.
 
-NepoPetro es la identidad que reúne este ecosistema de proyectos y personas.
+La diversidad de conocimientos permite abordar problemas desde perspectivas complementarias.
 
-El nombre identifica el espacio colaborativo, sus repositorios y su desarrollo colectivo.
+Los perfiles de los participantes pueden incorporarse a la documentación de cada proyecto cuando exista consentimiento y resulte pertinente.
 
-Su identidad no depende de un único proyecto, una única disciplina ni de una persona determinada.
+### 18\. ¿Por qué NepoPetro?
 
-Los proyectos pueden cambiar, evolucionar, concluir o dar lugar a nuevas iniciativas, mientras que el ecosistema mantiene un espacio común donde sus trayectorias pueden relacionarse y documentarse.
+NepoPetro es el nombre de la organización y de su ecosistema colaborativo.
 
-El nombre funciona como punto de referencia para explorar las iniciativas, reconocer su contexto y encontrar las relaciones entre sus participantes.
+La identidad del proyecto se construye mediante sus repositorios, contribuciones, documentación, metodologías y evolución.
+
+El nombre constituye una identidad común que permite agrupar proyectos independientes bajo una estructura transversal de colaboración.
+
+La historia y significado específicos del nombre podrán documentarse en esta sección cuando se incorporen formalmente al relato institucional.
 
 ### 19\. Cómo utilizar este repositorio
 
-Este repositorio contiene documentación compartida que puede evolucionar con el ecosistema.
+Este repositorio debe consultarse como manual transversal.
 
-### Si estás explorando
+Antes de contribuir a un proyecto:
 
-Comenzá por el perfil de NepoPetro y recorré los [repositorios disponibles](https://github.com/orgs/NepoPetro/repositories?utm_source=chatgpt.com).
+* Leer este README.
 
-### Si querés participar
+* Explorar el repositorio del proyecto.
 
-Explorá los proyectos, identificá uno que te interese y revisá su documentación para conocer su estado y las posibles formas de colaboración.
+* Revisar sus normas específicas.
 
-### Si ya participás
+* Consultar Issues y Discussions.
 
-Utilizá las convenciones compartidas como referencia, documentá tus contribuciones y ayudá a mantener la trazabilidad de los proyectos.
+* Identificar las convenciones de desarrollo.
 
-### Si querés proponer un proyecto
+* Verificar los workflows.
 
-Una propuesta puede comenzar con una pregunta, un problema, una hipótesis, una idea o una necesidad.
+* Consultar la documentación.
 
-Su desarrollo podrá dar lugar a un nuevo repositorio o integrarse en una iniciativa existente.
+* Revisar las decisiones relevantes.
 
-### Si querés mejorar este manual
+* Realizar contribuciones mediante Pull Requests.
 
-Podés proponer modificaciones mediante Issues o Pull Requests.
+Este manual establece criterios comunes, pero cada proyecto puede desarrollar reglas específicas adicionales.
 
-Este documento también es un proyecto en evolución: las convenciones pueden revisarse a partir de la experiencia real del ecosistema.
+Cuando existan diferencias, deberán estar documentadas en el repositorio correspondiente.
 
-### 20\. Mapa de navegación
+### 20\. Mapa de navegación del ecosistema
 
-```text
-                         NEPOPETRO
-                             │
-                  ┌──────────┴──────────┐
-                  │                    │
-             PRESENTACIÓN          DOCUMENTACIÓN
-                  │                    │
-             profile/              .github
-                  │                    │
-                  │         ┌──────────┼──────────┐
-                  │         │          │          │
-              INTEGRANTES  PRINCIPIOS  MÉTODOS  CONVENCIÓN
-                  │         │          │          │
-                  └─────────┴──────────┴──────────┘
-                             │
-                      PROYECTOS
-                             │
-         ┌────────────┬──────┼───────┬────────────┐
-         │            │      │       │            │
-    Investigación  Datos  Software  Experimentos  Nuevos
-         │            │      │       │            │
-         └────────────┴──────┴───────┴────────────┘
-                             │
-                     COLABORACIÓN
-                             │
-                   DISCUSSIONS + PRs
-                             │
-                      COMMITS + CI
-                             │
-                     DOCUMENTACIÓN
-                             │
-                     TRAZABILIDAD
+```mermaid
+flowchart TD
+    A["NepoPetro<br/>Organización"] --> B[".github<br/>Manual y gobernanza"]
+    A --> C["Profile<br/>Presentación institucional"]
+
+    B --> D["Cómo participar"]
+    B --> E["Metodología de desarrollo"]
+    B --> F["Estándares comunes"]
+    B --> G["Idiomas"]
+    B --> H["Gobernanza"]
+    B --> I["Navegación entre proyectos"]
+
+    D --> D1["Discussions"]
+    D --> D2["Issues"]
+    D --> D3["Pull Requests"]
+    D --> D4["Commits"]
+    D --> D5["Revisión"]
+
+    E --> E1["Investigación"]
+    E --> E2["Diseño"]
+    E --> E3["Implementación"]
+    E --> E4["Validación"]
+    E --> E5["Documentación"]
+
+    F --> F1["Git"]
+    F --> F2["GitHub Actions"]
+    F --> F3["ADR"]
+    F --> F4["Tests"]
+    F --> F5["Trazabilidad"]
+
+    I --> J["Cigarra3301"]
+    I --> K["30kT"]
+    I --> L["Tmura"]
+    I --> M["LaboratorioDeC-digo"]
+    I --> N["1DFlfRMH"]
+    I --> O["Antiprocrastinador"]
+
+    J --> P["Investigación"]
+    K --> Q["Investigación interdisciplinaria"]
+    L --> R["Arquitectura y herramientas"]
+    M --> S["Programación y formación"]
+    N --> T["Analytics"]
+    O --> U["Herramientas y experimentación"]
 ```
 
-### 21\. Ecosistema en evolución
+### Acceso directo a los proyectos
 
-NepoPetro es un ecosistema en construcción.
+* [Cigarra3301](https://github.com/NepoPetro/Cigarra3301?utm_source=chatgpt.com)
 
-Sus proyectos, estructuras, metodologías, herramientas y áreas de trabajo pueden cambiar a medida que se desarrollan nuevas iniciativas y se incorporan nuevas personas.
+* [30kT](https://github.com/NepoPetro/30kT?utm_source=chatgpt.com)
 
-Este repositorio busca proporcionar una referencia común que permita mantener cierta coherencia sin limitar la autonomía de cada proyecto.
+* [Tmura](https://github.com/NepoPetro/tmura?utm_source=chatgpt.com)
 
-Las convenciones compartidas son una base para colaborar, no un límite a la experimentación.
+* [LaboratorioDeC-digo](https://github.com/NepoPetro/LaboratorioDeC-digo?utm_source=chatgpt.com)
 
-NepoPetro
+* [1DFlfRMH](https://github.com/NepoPetro/1DFlfRMH?utm_source=chatgpt.com)
 
-Ingeniería colaborativa · Investigación · Desarrollo · Ciencia aplicada
+* [Antiprocrastinador](https://github.com/NepoPetro/antiprocrastinador?utm_source=chatgpt.com)
 
-Volver al perfil de la organización · [Explorar repositorios](https://github.com/orgs/NepoPetro/repositories?utm_source=chatgpt.com) · [Conocer los proyectos](https://github.com/orgs/NepoPetro/projects?utm_source=chatgpt.com)
+### 21\. Evolución del ecosistema
+
+NepoPetro es un ecosistema en evolución.
+
+Los repositorios pueden:
+
+* Incorporar nuevas tecnologías.
+
+* Cambiar metodologías.
+
+* Ampliar sus objetivos.
+
+* Incorporar nuevos participantes.
+
+* Crear nuevas líneas de investigación.
+
+* Integrar nuevos proyectos.
+
+* Modificar sus estructuras.
+
+* Adoptar nuevas herramientas.
+
+* Revisar sus decisiones anteriores.
+
+La evolución del ecosistema debe mantenerse documentada y trazable.
+
+Las decisiones relevantes se registrarán mediante los mecanismos de documentación y colaboración correspondientes.
+
+### 22\. Contribuir
+
+La participación en NepoPetro implica contribuir al desarrollo y evolución de sus proyectos.
+
+Las contribuciones se realizan mediante los mecanismos establecidos en GitHub y deben respetar las convenciones del proyecto correspondiente.
+
+Toda contribución debe procurar:
+
+* Ser verificable.
+
+* Estar documentada cuando corresponda.
+
+* Respetar las licencias.
+
+* Mantener la trazabilidad.
+
+* Cumplir los criterios de revisión.
+
+* Integrarse mediante Pull Requests.
+
+* Mantener commits atribuibles.
+
+* Respetar la política de idiomas.
+
+* Contribuir a la evolución colectiva del ecosistema.
+
+La calidad del ecosistema depende tanto de los resultados técnicos como de la capacidad de documentarlos, compartirlos, revisarlos y reproducirlos.
+
+*NepoPetro*
+
+Research · Engineering · Collaboration · Documentation · Reproducibility
